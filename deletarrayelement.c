@@ -12,7 +12,7 @@ int main() {
             for (int j = i; j < newSize ; j++) {
                 arr[j] = arr[j + 1];
             }
-            newSize--; // Reduce the size of the array
+            newSize--; // Reducing the size of the array
             i--; // Check the same index again since it contains a new element now
         }
     }
